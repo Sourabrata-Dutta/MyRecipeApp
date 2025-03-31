@@ -74,4 +74,4 @@ def view_recipe(recipe_id):
 
 # Run the app in debug mode if executed directly
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0')
